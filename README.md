@@ -1,6 +1,12 @@
 # Development of the program "Object recognition by shape"
 The code contains a set of functions that are used to classify fruit images.
 
+The work of the Kenny operator is presented in canny.py .
+
+The operation of the recognition program is presented in main.py
+
+Examples of the image are provided img_1.jpg and img2.jpg .
+
 To do this, the image is preprocessed using the Canny filter, converting it into a black-and-white image and calculating the distances from white pixels to the center of the image.
 
 Then, using the distance variance, it is determined which type of fruit corresponds to this image.
